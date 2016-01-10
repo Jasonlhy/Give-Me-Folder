@@ -28,3 +28,26 @@ Current Directory
     │   │   sequence.png
     │   │   ...
 ```
+
+# More example
+Suppose I got following files:
+- Q1,use case.png
+- Q1,sequence diagram.png
+- Q2,login,class diagram.png
+- Q2,login,use case.png
+- Q2,login,sequence diagram.png
+- Q2,logout,class diagram.png
+- Q3,shopping cart,diagram,use case.png
+- Q3,shopping cart,diagram,sequence diagram.png
+- Q3,shopping cart,src,customer.java
+- Q3,shopping cart,src,shopping cart.java
+
+After the script is executed, the file strcutrue looks like:
+
+![result](./result.png)
+
+
+# How to install
+1. Download the `gmf.sh`
+2. Add the line into your shell folder `alias gmf='sh <path-to-the-shellscript>/gmf.sh'`
+3. Run the shell script in the root directory in which you want to organize the file
