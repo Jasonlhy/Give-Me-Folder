@@ -1,14 +1,17 @@
 #!/bin/zsh
 
 # 1 level
-touch "a,b.png"
-touch "a,c.png"
-touch "喂,仆街.png"
+touch "Q1,use case.png"
+touch "Q1,sequence diagram.png"
 
 # 2 level
-touch "a,b,d.png"
-touch "a,c,e.png"
+touch "Q2,login,class diagram.png"
+touch "Q2,login,use case.png"
+touch "Q2,login,sequence diagram.png"
+touch "Q2,logout,class diagram.png"
 
 # 3 level
-touch "a,b,d,f.png"
-touch "a,b,e,g.png"
+touch "Q3,shopping cart,diagram,use case.png"
+touch "Q3,shopping cart,diagram,sequence diagram.png"
+touch "Q3,shopping cart,src,customer.java"
+touch "Q3,shopping cart,src,shopping cart.java"
